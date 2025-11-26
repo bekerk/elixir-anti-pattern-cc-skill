@@ -68,19 +68,21 @@ A single piece of code can violate multiple anti-patterns simultaneously. When t
 
 ### Example Review Output
 
-```
-**Anti-pattern detected: Non-assertive map access**
+~~~
+Anti-pattern detected: Non-assertive map access
 
 In `lib/my_app/users.ex:45`:
+
 ```elixir
 def get_email(user), do: user[:email]
 ```
 
 Since `email` is a required field on `User`, use static access for clarity and fail-fast behavior:
+
 ```elixir
 def get_email(user), do: user.email
 ```
-```
+~~~
 
 ## What are anti-patterns?
 
