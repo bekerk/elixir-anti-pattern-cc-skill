@@ -1,6 +1,6 @@
 ---
 name: elixir-anti-patterns-review
-description: Spots Elixir anti-patterns in user code and suggests concrete refactors. Treats them as checklists rather than hard rules; calls out issues with evidence (file/line or snippet) and proposes minimal, idiomatic fixes. Covers 4 anti-pattern categories: Code, Design, Macro, and Process.
+description: Spots Elixir anti-patterns in user code and suggests concrete refactors. Treats them as checklists rather than hard rules; calls out issues with evidence (file/line or snippet) and proposes minimal, idiomatic fixes. Covers 4 anti-pattern categories - Code, Design, Macro, and Process.
 license: Complete terms in LICENSE
 ---
 

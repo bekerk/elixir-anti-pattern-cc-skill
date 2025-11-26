@@ -1,3 +1,3 @@
-# Elixir Anti-Patterns Claude Skill
+# Elixir Anti-Patterns Claude Code Skill
 
 TODO!
